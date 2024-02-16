@@ -1,19 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
-
-
-/* .banner-img {
-    background-image: url('/resources/banner.png');
-    width: 95vw;
-    height: 56.25vw;
-    max-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* padding: 50px;
-    overflow-x:hidden;
-} */
 .banner{
     background-image: url('./resources/banner.png');
     width:1000px;
@@ -23,9 +10,30 @@ body {
     /* background-attachment: fixed; */
     background-size: cover;
     margin: 50px auto;
+    opacity: 0.5;
 }
 
+.banner-container{
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.new-year{
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+.new-year-party, .new-year-celebration{
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+}
+.new-year-celebration{
 
+}
 
 
 
