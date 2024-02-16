@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -40,7 +43,6 @@ body {
     color: red;
     margin-top: 10px;
     margin-bottom: 5px;
-    
 }
 .dis-title1{
     margin-top: 0;
@@ -57,7 +59,7 @@ body {
     text-align: center;
     padding-top: 50px;
     justify-content: center;
-    width: 600px;
+    width: 700px;
     height: 200px;
     margin: auto;
 }
@@ -87,6 +89,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 100px 30px;
+    align-items: center;
 
 }
 .offer-left{
@@ -94,12 +97,16 @@ body {
 }
 .offer-img{
     width: 250px;
+    border: 8px solid red;
+    border-radius: 100%;
+    padding: 12px;
 }
 .offer-right{
     width: 270px;
 }
 .year-img{
     width: 70px;
+    margin-top: 10px;
 }
 .year{
     color: red;
@@ -107,6 +114,56 @@ body {
     font-weight: 800;
     margin-bottom: 0;
 }
+.dis-right-description{
+    color: gray;
+    font-size: small;
+}
+.best-off{
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.coming-soon{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 ;
+}
 
 /* offer section end */
 
+
+/* portfolio secction staert */
+
+.portfolio-container{
+    margin: 100px 30px;
+}
+.port-1title{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.port{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+
+}
+.port-des{
+    color: gray;
+    width: 700px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.port-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.port-images img{
+    width: 325px;
+}
