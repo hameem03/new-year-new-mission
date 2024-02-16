@@ -7,10 +7,8 @@ body {
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; */
     background-size: cover;
     margin: 50px auto;
-    opacity: 0.5;
 }
 
 .banner-container{
@@ -31,10 +29,6 @@ body {
     color: #ffffff;
     margin: 0;
 }
-.new-year-celebration{
-
-}
-
 
 
 
@@ -67,6 +61,19 @@ body {
 }
 
 /* discount section end */
+
+/* midnight party start */
+.midnight-party-container{
+    background-image: url('./resources/vectorrr.png');
+    width:1000px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+}
+
+/* midnight party end */
 
 /* Info section start */
 .info-container{
