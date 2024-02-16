@@ -72,6 +72,26 @@ body {
     background-size: cover;
     margin: 50px auto;
 }
+.midnight-description{
+    padding: 100px;
+}
+.midnight-welcome{
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+}
+.midnight-des{
+    color: lightgray;
+    width: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.midnight-btn{
+    color: rgb(255, 253, 253);
+    width: 700px;
+    font-size: 20px;
+}
 
 /* midnight party end */
 
@@ -298,5 +318,6 @@ label{
 
 hr{
     width: 80%;
+    color: grey;
 }
 /* footer section end */
