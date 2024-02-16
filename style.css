@@ -82,3 +82,31 @@ body {
 }
 /* Info section end */
 
+/* offer section start */
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 30px;
+
+}
+.offer-left{
+    width: 300px;
+}
+.offer-img{
+    width: 250px;
+}
+.offer-right{
+    width: 270px;
+}
+.year-img{
+    width: 70px;
+}
+.year{
+    color: red;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+/* offer section end */
+
