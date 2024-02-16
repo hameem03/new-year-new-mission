@@ -64,7 +64,7 @@ body {
 
 /* midnight party start */
 .midnight-party-container{
-    background-image: url('./resources/vectorrr.png');
+    background-image: url('/resources/vectorrr.png');
     width:1000px;
     height: 500px;
     background-repeat: no-repeat;
