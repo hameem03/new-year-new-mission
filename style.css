@@ -1,9 +1,7 @@
-
-
-
 body {
     font-family: "Open Sans", sans-serif;
 }
+
 
 /* .banner-img {
     background-image: url('/resources/banner.png');
@@ -15,8 +13,17 @@ body {
     background-repeat: no-repeat;
     /* padding: 50px;
     overflow-x:hidden;
+} */
+.banner{
+    background-image: url('resources/banner.png');
+    width:1000px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    margin: 50px auto;
 }
- */
 
 
 
@@ -137,7 +144,7 @@ body {
 /* portfolio secction staert */
 
 .portfolio-container{
-    margin: 100px 30px;
+    margin: 150px 30px;
 }
 .port-1title{
     color: red;
@@ -156,7 +163,7 @@ body {
     color: gray;
     width: 700px;
     margin-top: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .port-images{
@@ -208,7 +215,6 @@ label{
 .sub-form{
     border: none;
     padding: 10px;
-
 }
 .sub-btn{
     position: absolute;
@@ -219,28 +225,63 @@ label{
     padding: 10px;
     background-color: red;
 }
+.sub-input{
+    margin-right: 100px;
+}
 
 /* subscribe section end */
 
 /* footer section start */
 
-.website-container, .call-container{
+.call-container{
     display: flex;
     margin: 0;   
     width: 300px;
     align-items: center;
+    color: #ffffff;
+    margin: 0;
 }
-.fo-img{
-    ma
+
+.website-container{
+    display: flex;
+    margin: 0;   
+    width: 300px;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
 }
+
+
 .f-left{
     width: 300px;
+    color: #ffffff;
 }
 .first-footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 60px;
 }
 
+.social-medio{
+    text-align: center;
+    margin: 30px 0;
+}
 
+.social-medio img{
+    width: 40px;
+    height: 40px;
+
+}
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+    color: #ffffff;
+}
+
+hr{
+    width: 80%;
+}
 /* footer section end */
