@@ -227,9 +227,19 @@ label{
 .website-container, .call-container{
     display: flex;
     margin: 0;   
+    width: 300px;
+    align-items: center;
+}
+.fo-img{
+    ma
+}
+.f-left{
+    width: 300px;
 }
 .first-footer{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
