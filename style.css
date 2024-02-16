@@ -55,7 +55,7 @@ body {
 
 /* Info section start */
 .info-container{
-    background-color: #EDCDCD;
+    background-color: #fae8e8;
     text-align: center;
     padding-top: 50px;
     justify-content: center;
@@ -166,4 +166,77 @@ body {
 }
 .port-images img{
     width: 325px;
+}
+
+/* portfolio section end */
+
+/* subscribe section start */
+
+.subscribe-container{
+    background-color: #fae8e8;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+
+#sub-img{
+    width: 50px;
+}
+.sub-news{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+.sub-description{
+    color: gray;
+    font-size: small;
+    width: 700px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+/* label{
+    position: relative;
+}
+.sub-form{
+    width: 200px;
+    height: 30px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    color: gray;
+    font-size: 10px;
+    border: none;
+    padding: 15px;
+    background-color: brown;
+}
+.sub-btn{
+    position: absolute;
+    top: 0;
+    right: 5;
+    bottom: 0;
+    border: none;
+    padding: 0 15px;
+    width: 50px;
+    height: 30px;
+    background-color: yellowgreen;
+    
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding:15px;
+    background-color: chocolate;
+
+} */
+/* subscribe section end */
+
+
+
+label{
+    
 }
